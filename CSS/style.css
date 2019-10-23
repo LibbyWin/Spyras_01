@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+body {
+    background-color: #fdfdfd;
+    font-family: 'Nobile', sans-serif;
+}
+
+/* ----------------------------------------Colors */
+
+.bg-color-contact {
+    background-color: #fff;
+}
+/* ----------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 5 auto;
+    max-width: 70%;
+    
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #9c7fba;
+}
