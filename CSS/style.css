@@ -85,17 +85,15 @@ h2 {
   .header-testimonials {
     letter-spacing: 7px;
     text-transform: uppercase;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
   }
+  
 
   .container-testimonials {
     border: none;
     background-color: black;
     border-radius: 3px;
-    padding-left: 3em;
     margin: 15px 0;
     text-align: center;
     font-size: 20px;
@@ -156,6 +154,8 @@ h2 {
   }
 
   /* --------------------------- FOOTER --------------------*/
+  
+
   .footer {
     position: fixed;
     left: 0;
