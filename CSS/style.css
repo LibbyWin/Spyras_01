@@ -125,16 +125,14 @@ h3 {
   padding-top: 10px;
 }
 
-.col-sm-6 {
-  align-items: center;
-}
+
 
 .bg {
   background-color: #353535;
   border-radius: 2.5%;
   width: 18em;
   height: 15em;
-  -webkit-box-align: center;
+-webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: center;
@@ -143,6 +141,7 @@ h3 {
     text-align: center;
   padding: 40px;
   margin: 4% 7%;
+  display: inline-block;
   opacity: 0.8;
   transition: all .4s ease-in;
   -moz-transition: all .4s ease-in;
@@ -163,7 +162,6 @@ h3 {
   font-size: 1.07em;
 }
 
-
 .scroll-applications,
 .cards {
 text-align: center;
@@ -175,6 +173,7 @@ text-align: center;
     justify-content: center;
     margin: 0 auto;
 }
+
 /* --------------------------- WHO WE ARE --------------------*/
 
 .row-who-we-are {
