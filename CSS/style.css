@@ -37,19 +37,6 @@ html {
   min-height: 100%;
 }
 
-/*.pimg3 {
-  background-image: url('../images/paper.jpg');
-  background-position: right;
-  position: relative;
-  opacity: 0.55;
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  min-height: 100%
-}
-*/
-
-
 /* ----------------------------- ABOUT ------------------------*/
 
 .about-row {
@@ -59,6 +46,7 @@ html {
   padding-left: 2.5em;
   padding-right: 2.5em;
 }
+
 
 h2 {
   letter-spacing: 7px;
@@ -81,123 +69,206 @@ h2 {
     background-size: cover;
     width: 100vw;
   }
-  /* --------------------------- WHO WE ARE --------------------*/
-  .header-testimonials {
-    letter-spacing: 7px;
-    text-transform: uppercase;
-    padding-bottom: 1.5em;
+}
+
+
+/* ----------------------------- INFO ------------------------*/
+
+.info-row {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-size: 1.75em;
+  line-height: 2;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  text-align: right;
+  background-color: #101010;
+}
+
+.h3 {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.info-row .p {
+  font-size: 20px;
+  margin: 40px 0px 40px 0px;
+  text-align: right;
+}
+
+
+
+
+
+
+/* ----------------------------- APPLICATIONS ------------------------*/
+
+
+
+.bg-body .row {
     text-align: center;
-  }
-  
+    padding-top: 10px;
+}
 
-  .container-testimonials {
-    border: none;
-    background-color: black;
-    border-radius: 3px;
-    margin: 15px 0;
-    text-align: center;
-    font-size: 20px;
-  }
+.cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
 
-  .container-testimonials::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+}
 
+.col-xs-6 {
+    align-items: center;
+}
 
-  .container-testimonials img {
-    float: none;
-    border-radius: 50%;
-  }
+.bg {
+    background-color: #292929;
+    border-radius: 2.5%;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    margin: 15% auto;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.8;
+    transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+}
 
+.bg:hover {
+    opacity: 1;
+}
 
-  /* --------------------------- WHO WE ARE MEDIA --------------------*/
-
-  /* -------------------------- CONTACT FORM --------------------*/
-  .contact-form {
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  input[type=text],
-  select,
-  textarea {
-    width: 100%;
-    text-align: left;
-    padding: 12px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-  }
+.title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
 
 
-  input[type=submit] {
-    background-color: #cb394d;
-    color: white;
-    border-radius: 4px;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    position: inherit;
-  }
+.bg-body .applications-text {
+    font-size: 1.07em;
+}
+/* --------------------------- WHO WE ARE --------------------*/
 
-  input[type=submit]:hover {
-    background-color: #902332;
-  }
+.header-testimonials {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
 
 
-  .container {
-    background-color: #040404;
-    padding: 20px;
-  }
+.container-testimonials {
+  border: none;
+  background-color: black;
+  border-radius: 3px;
+  margin: 15px 0;
+  text-align: center;
+  font-size: 20px;
+}
 
-  /* --------------------------- FOOTER --------------------*/
-  
+.container-testimonials::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: #fafafa;
-    text-align: center;
-  }
 
-  footer {
-    text-align: center;
-    border-color: black;
-  }
+.container-testimonials img {
+  float: none;
+  border-radius: 50%;
+}
 
-  .black-footer {
-    margin-bottom: 20px;
-  }
 
-  a {
-    padding: 10px 20px 10px 20px;
-    background-color: black;
-  }
+/* -------------------------- CONTACT FORM --------------------*/
 
-  .alignment {
-    line-height: 2px;
-  }
+.contact-form {
+  text-transform: uppercase;
+  text-align: center;
+}
 
-  i {
-    display: inline-block;
-    color: #8F8F8F;
-    font-size: 28px;
-    text-align: center;
-    vertical-align: middle;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
 
-  }
 
-  i:hover {
-    color: #cb394d;
-  }
+input[type=submit] {
+  background-color: #399dd0;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  position: inherit;
+}
+
+input[type=submit]:hover {
+  background-color: #2784B4;
+}
+
+
+.container {
+  background-color: #000;
+  padding: 20px;
+}
+
+/* --------------------------- FOOTER --------------------*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #fafafa;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  border-color: black;
+}
+
+.black-footer {
+  margin-bottom: 20px;
+}
+
+a {
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+}
+
+.alignment {
+  line-height: 2px;
+}
+
+i {
+  display: inline-block;
+  color: #8F8F8F;
+  font-size: 28px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+
+}
+
+i:hover {
+  color: #399dd0;
+}
