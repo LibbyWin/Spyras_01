@@ -2,8 +2,6 @@ body,
 html {
   height: 100%;
   margin: 0;
-
-  font-family: sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #fafafa;
@@ -23,7 +21,8 @@ html {
   /*  if i dont want this fixed set it to scroll */
 }
 
-/* ----------------------------- IMAGES ------------------------*/
+
+/* ---------------------------- NAV BAR -------------------------*/
 
 .pimg1 {
   background-image: url('../images/test_02.jpg');
@@ -31,6 +30,34 @@ html {
   margin-bottom: 0px;
   z-index: 1;
 }
+
+.container-navbar {
+  position: absolute;
+  margin: 15px;
+  margin-top: 5px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* ----------------------------- IMAGES ------------------------*/
 
 .pimg2 {
   background-image: url('../images/logo_02.jpg');
@@ -41,7 +68,7 @@ html {
 
 .about-row {
   padding-bottom: 10%;
-  font-size: 1.75em;
+  font-size: 20px;
   line-height: 2;
   padding-left: 2.5em;
   padding-right: 2.5em;
@@ -54,6 +81,8 @@ h2 {
   text-align: left;
   margin-top: 0;
   padding-top: 2em;
+  padding-left: 0.6em;
+  padding-bottom: 1.5em;
 }
 
 .about-row .about-p {
@@ -72,88 +101,76 @@ h2 {
 }
 
 
-/* ----------------------------- INFO ------------------------*/
-
-.info-row {
-  padding-top: 7%;
-  padding-bottom: 7%;
-  font-size: 1.75em;
-  line-height: 2;
-  padding-left: 2.5em;
-  padding-right: 2.5em;
-  text-align: right;
-  background-color: #101010;
-}
-
-.h3 {
-  text-align: right;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-}
-
-.info-row .p {
-  font-size: 20px;
-  margin: 40px 0px 40px 0px;
-  text-align: right;
-}
-
-
-
-
-
 
 /* ----------------------------- APPLICATIONS ------------------------*/
 
-
+.h5 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
 
 .bg-body .row {
-    text-align: center;
-    padding-top: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .cards {
-    display: inline-table;
-    justify-content: center;
-    align-items: center;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
 }
 
-.col-xs-6 {
-    align-items: center;
+.col-sm-6 {
+  align-items: center;
 }
 
 .bg {
-    background-color: #292929;
-    border-radius: 2.5%;
-    width: 18em;
-    height: 18em;
-    top: 50%;
-    left: 50%;
-    padding: 15px;
-    margin: 15% auto;
-    align-items: center;
-    z-index: 2;
-    display: block;
-    opacity: 0.8;
-    transition: all .4s ease-in;
-    -moz-transition: all .4s ease-in;
-    -webkit-transition: all .4s ease-in;
+  background-color: #353535;
+  border-radius: 2.5%;
+  width: 18em;
+  height: 15em;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  margin: 10% 0px;
+  align-items: center;
+  display: inline-block;
+  opacity: 0.8;
+  transition: all .4s ease-in;
+  -moz-transition: all .4s ease-in;
+  -webkit-transition: all .4s ease-in;
 }
 
 .bg:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .title {
-    font-size: 1.25em;
-    font-weight: bold;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 
 .bg-body .applications-text {
-    font-size: 1.07em;
+  font-size: 1.07em;
 }
+
+.container-applications {
+  padding-left: 30px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* --------------------------- WHO WE ARE --------------------*/
+
+.row-who-we-are {
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 .header-testimonials {
   letter-spacing: 7px;
