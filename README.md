@@ -38,7 +38,3 @@ Credits
 - To the Owner of Spryas, George Winfield, for allowing me to update his website and for the addition support with meetings, answering questions and multiple phone calls.
 
 
-Media
-
-Acknowledgements
-# Spyras_01
