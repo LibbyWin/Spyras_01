@@ -8,7 +8,6 @@ html {
   background-color: black;
 }
 
-
 .pimg1,
 .pimg2 {
   position: relative;
@@ -16,11 +15,9 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   background-attachment: fixed;
   /*  if i dont want this fixed set it to scroll */
 }
-
 
 /* ---------------------------- NAV BAR -------------------------*/
 
@@ -30,19 +27,20 @@ html {
   margin-bottom: 0px;
 }
 
-.container-navbar {
+.container .navbar {
   position: absolute;
   margin: 15px;
   margin-top: 5px;
   width: auto;
   z-index: 1;
+  
 }
 
 .topnav {
   overflow: hidden;
-  background-color: black;
+  background-color: transparent;
+  background: none;
 }
-
 
 .topnav a {
   float: left;
@@ -54,12 +52,11 @@ html {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #399dd0;
   color: black;
 }
 
 /* ----------------------------- IMAGES ------------------------*/
- 
 
 .pimg2 {
   background-image: url('../images/logo_02.jpg');
@@ -70,12 +67,12 @@ html {
 
 .about-row {
   padding-bottom: 10%;
+  padding-top: 10%;
   font-size: 20px;
   line-height: 2;
   padding-left: 2.5em;
   padding-right: 2.5em;
 }
-
 
 h2 {
   letter-spacing: 7px;
@@ -102,17 +99,16 @@ h2 {
   }
 }
 
-
-
 /* ----------------------------- APPLICATIONS ------------------------*/
+
 h3 {
-    letter-spacing: 7px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 0;
-    padding-top: 2em;
-    padding-right: 20px;
-    padding-bottom: 1em;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 2em;
+  padding-right: 20px;
+  padding-bottom: 1em;
 }
 
 .h5 {
@@ -125,24 +121,23 @@ h3 {
   padding-top: 10px;
 }
 
-
-
 .bg {
-  background-color: #353535;
+  background-color: #399dd0;
   border-radius: 2.5%;
   width: 18em;
   height: 15em;
--webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
   padding: 40px;
   margin: 4% 7%;
   display: inline-block;
   opacity: 0.8;
+  -o-transition: all .4s ease-in;
   transition: all .4s ease-in;
   -moz-transition: all .4s ease-in;
   -webkit-transition: all .4s ease-in;
@@ -157,26 +152,26 @@ h3 {
   font-weight: bold;
 }
 
-
 .bg-body .applications-text {
   font-size: 1.07em;
 }
 
 .scroll-applications,
 .cards {
-text-align: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 /* --------------------------- WHO WE ARE --------------------*/
 
 .row-who-we-are {
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
@@ -189,12 +184,11 @@ text-align: center;
   text-align: center;
 }
 
-
 .container-testimonials {
   border: none;
   background-color: black;
   border-radius: 3px;
-  margin: 15px 0;
+  margin: 50px 0;
   text-align: center;
   font-size: 20px;
 }
@@ -205,12 +199,14 @@ text-align: center;
   display: table;
 }
 
-
 .container-testimonials img {
   float: none;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
+h4 {
+  padding-top: 10px;
+}
 
 /* -------------------------- CONTACT FORM --------------------*/
 
@@ -226,11 +222,11 @@ textarea {
   text-align: left;
   padding: 12px;
   border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
 }
-
 
 input[type=submit] {
   background-color: #399dd0;
@@ -246,9 +242,8 @@ input[type=submit]:hover {
   background-color: #2784B4;
 }
 
-
-.container {
-  background-color: #000;
+.contact {
+  background-color: transparent;
   padding: 20px;
 }
 
@@ -288,14 +283,31 @@ i {
   font-size: 28px;
   text-align: center;
   vertical-align: middle;
+  -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
-
 }
 
 i:hover {
   color: #399dd0;
+}
+
+.spyras {
+  font-size: 2em;
+  color: #399dd0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.emailaddress {
+  font-size: 1em;
+  color: #8F8F8F;
+  text-align: center;
+  padding-bottom: 30px;
+  
 }
