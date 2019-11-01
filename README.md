@@ -56,5 +56,6 @@ Work based on other people’s code
 Credits
 - Thank you to my mentor, Brian Macharia, for helping me plan and execute this project.
 - To the Owner of Spryas, George Winfield, for allowing me to update his website and for the addition support with meetings, answering questions and multiple phone calls.
+- All Information for this site was collected from the original Spyras webpage and through documentation via my client.
 
 
