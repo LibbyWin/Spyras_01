@@ -1,3 +1,7 @@
+Website available at https://wini996.github.io/Spyras_01/
+
+
+
 The form holds data information and all fields are set to be required to ensure that the information is fully submitted to the correct format. The form consists of Name/Email/Message etc that will not be shared with anyone to ensure general data regulation protection regulation.
 
 This project is based on a real life medical company based in London, known as Spyras. This company uses a paper device to monitor our breathing pattern in order to help prevent life threatening disease’s such as sepsis and potentially used for future benefits within the sporting industry to help record our rate of breathing.  
