@@ -1,5 +1,11 @@
-Website available at https://wini996.github.io/Spyras_01/
+What it does and what does it need to fulfil?
+- This site shows what i have leanr in the first 3 modules of the Full Stack Developer Course, HTML, CSS & User Centric Frontend Development. I am able to build a mobile first fully responsive site for a start up medical company in London known as 'Spyras'.
 
+-This website has been desinged for everyone who is interested in learning about a new life saving technology, which uses a paper sensor to monitor breathing rate.
+
+Functionality of the Project
+-i used a bootstrap framework to create a fully responsive website, completed within my guideline requirements. this site does not have any back end features added to in nor any Javascript.
+-There is a contact form at the bottom of the webpage which allows for the user to access more information. This form does not alert anyone about emails or require a server database.
 
 
 The form holds data information and all fields are set to be required to ensure that the information is fully submitted to the correct format. The form consists of Name/Email/Message etc that will not be shared with anyone to ensure general data regulation protection regulation.
@@ -8,7 +14,7 @@ This project is based on a real life medical company based in London, known as S
 
 FUTURE ADD ONS 
  
-Within the near future, I hope to add on multiple new features to the website which includes a section for my clients Awards and Sponsors, a recruitment section, merchandise store to buy the product and payment/booking systems.
+Within the near future, I hope to add on multiple new features to the website which includes a section for my clients Awards and Sponsors, a recruitment section, merchandise store to buy the product and payment/booking systems. A drop down nav bar will be place on smaller devices when the client wishes to add more pages into his site. Due to him only
 
 TECHNOLOGIES USED
 
