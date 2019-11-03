@@ -123,7 +123,8 @@ h3 {
   margin-top: 0;
   padding-top: 2em;
   padding-right: 20px;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
+  font-size: 1.3em;
 }
 
 .h5 {
@@ -184,42 +185,15 @@ h3 {
 }
 
 /* --------------------------- WHO WE ARE --------------------*/
-
-.row-who-we-are {
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.header-testimonials {
-  letter-spacing: 7px;
+.bio-section-header {
+  text-align: center;
   text-transform: uppercase;
-  padding-bottom: 1.5em;
-  text-align: center;
+  padding: 10px;
+  letter-spacing: 7;
+  
 }
 
-.container-testimonials {
-  border: none;
-  background-color: black;
-  border-radius: 3px;
-  margin: 50px 0;
-  text-align: center;
-  font-size: 20px;
-}
-
-.container-testimonials::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.container-testimonials img {
-  float: none;
-  border-radius: 20%;
-}
-
-h4 {
+.name {
   padding-top: 10px;
 }
 
@@ -230,6 +204,47 @@ h4 {
   font-size: 2em;
   line-height: normal;
 }
+
+.container img {
+  float: none;
+  border-radius: 20%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  padding: 10px;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  padding: 5px;
+}
+
+.info-character {
+  text-align: center;
+  padding: 5px;
+}
+
+/* ----------------------Recruiting----------------------*/
+
+.recruiting-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.pde,
+.de {
+ text-align: center; 
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
 
 /* -------------------------- CONTACT FORM --------------------*/
 
@@ -289,11 +304,6 @@ footer {
 
 .black-footer {
   margin-bottom: 20px;
-}
-
-a {
-  padding: 10px 20px 10px 20px;
-  background-color: black;
 }
 
 .alignment {
