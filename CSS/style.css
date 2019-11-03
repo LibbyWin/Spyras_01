@@ -67,7 +67,6 @@ html {
 /* ----------------------------- title ------------------------*/
 
 .TITLE {
-  text-align: center;
   padding-top: 400px;
 }
 
@@ -85,7 +84,7 @@ html {
 h2 {
   letter-spacing: 7px;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   margin-top: 0;
   padding-top: 2em;
   padding-left: 0.6em;
