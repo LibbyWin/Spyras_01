@@ -187,19 +187,17 @@ h3 {
   justify-content: center;
   margin: 0 auto;
 }
+
 /* --------------------------- DIVIDER --------------------*/
 
-hr { 
-  display: block;
-  margin-top: 3em;
-  margin-bottom: 0.5em;
-  margin-left: 35em;
-  margin-right: 35em;
-  border-style: inset;
-  border-width: 1px;
+hr {
+  width: 175px;
+  height: 2px;
+  border: 0;
   background-color: white;
-  
-} 
+  margin-top: 2em;
+
+}
 
 /* --------------------------- WHO WE ARE --------------------*/
 
