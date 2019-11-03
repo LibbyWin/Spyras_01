@@ -64,7 +64,7 @@ html {
   min-height: 100%;
 }
 
-/* ----------------------------- TITLE ------------------------*/
+/* ----------------------------- title ------------------------*/
 
 .title-home {
   padding-top: 400px;
@@ -198,8 +198,9 @@ hr {
   border-style: inset;
   border-width: 1px;
   background-color: white;
- 
+  
 } 
+
 /* --------------------------- WHO WE ARE --------------------*/
 
 .bio-section-header {
@@ -208,8 +209,8 @@ hr {
   padding: 10px;
   letter-spacing: 7;
   padding-top: 3em;
-  font-size: 2em;
   padding-bottom: 1.5em;
+  font-size: 2em;
 
 }
 
@@ -280,12 +281,12 @@ h5 {
 
 /* -------------------------- CONTACT FORM --------------------*/
 
- .getintouch {
+.getintouch {
   text-transform: uppercase;
   text-align: center;
   color: white;
   text-decoration: none;
-  
+
 }
 
 input[type=text],
