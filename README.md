@@ -15,7 +15,7 @@ Functionality of the Project
          
          
 Future Add On
--	Within the near future, I hope to add on multiple new features to the website which includes a section for my clients Awards and Sponsors, a recruitment section, merchandise store to buy the product and payment/booking systems. A drop down nav bar will be place on smaller devices when the client wishes to add more pages into his site. Since there are only 3/4 sections there is no need to complicate things just yet by adding this, due to the information being limited, we want the viewer to take in as much as possible.
+-	Within the near future, I hope to add on multiple new features to the website which includes a section for my clients Awards and Sponsors, a recruitment section, merchandise store to buy the product and payment/booking systems. A drop down nav bar will be place on smaller devices when the client wishes to add more pages into his site. Since there are only 3/4 sections there is no need to complicate things just yet by adding this, due to the information being limited, we want the viewer to take in as much as possible. This will then create a more user friendly experience for viewers, eliminating scrol time.
                        
                        
                        
