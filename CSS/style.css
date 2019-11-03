@@ -68,7 +68,6 @@ html {
 
 .title-home {
   padding-top: 400px;
-  text-align: center;
 }
 
 /* ----------------------------- ABOUT ------------------------*/
@@ -93,7 +92,7 @@ h2 {
 }
 
 .about-row .about-p {
-  font-size: 20px;
+  font-size: 23px;
   margin: 40px 0px 40px 0px;
   text-align: left;
 }
@@ -120,6 +119,9 @@ h2 {
 
 /* ----------------------------- APPLICATIONS ------------------------*/
 
+.app-section-header {
+  font-size: 2em;
+}
 h3 {
   letter-spacing: 7px;
   text-transform: uppercase;
