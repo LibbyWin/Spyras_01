@@ -121,10 +121,10 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
-  padding-top: 2em;
+  padding-top: 3em;
   padding-right: 20px;
   padding-bottom: .5em;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .h5 {
@@ -136,6 +136,7 @@ h3 {
   text-align: center;
   padding-top: 10px;
 }
+
 
 .bg {
   background-color: #399dd0;
@@ -185,12 +186,15 @@ h3 {
 }
 
 /* --------------------------- WHO WE ARE --------------------*/
+
 .bio-section-header {
   text-align: center;
   text-transform: uppercase;
   padding: 10px;
   letter-spacing: 7;
-  
+  padding-top: 3em;
+  font-size: 2em;
+
 }
 
 .name {
@@ -236,9 +240,15 @@ h5 {
   font-weight: 400;
 }
 
+.recruiting-text_01 {
+  color: #399dd0;
+  font-size: 28px;
+  font-weight: 400;
+}
+
 .pde,
 .de {
- text-align: center; 
+  text-align: center;
   color: white;
   font-size: 25px;
   font-weight: 400;
@@ -248,9 +258,12 @@ h5 {
 
 /* -------------------------- CONTACT FORM --------------------*/
 
-.contact-form {
+ .getintouch {
   text-transform: uppercase;
   text-align: center;
+  color: white;
+  text-decoration: none;
+  
 }
 
 input[type=text],
@@ -314,6 +327,7 @@ i {
   display: inline-block;
   color: #8F8F8F;
   font-size: 28px;
+  padding: 10px;
   text-align: center;
   vertical-align: middle;
   -o-transition: all .3s ease-in-out;
