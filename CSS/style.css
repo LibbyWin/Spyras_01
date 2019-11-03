@@ -64,7 +64,7 @@ html {
   min-height: 100%;
 }
 
-/* ----------------------------- title ------------------------*/
+/* ----------------------------- TITLE ------------------------*/
 
 .title-home {
   padding-top: 400px;
@@ -121,7 +121,9 @@ h2 {
 
 .app-section-header {
   font-size: 2em;
+  padding-bottom: 1.5em;
 }
+
 h3 {
   letter-spacing: 7px;
   text-transform: uppercase;
@@ -185,7 +187,19 @@ h3 {
   justify-content: center;
   margin: 0 auto;
 }
+/* --------------------------- DIVIDER --------------------*/
 
+hr { 
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  margin-left: 35em;
+  margin-right: 35em;
+  border-style: inset;
+  border-width: 1px;
+  background-color: white;
+ 
+} 
 /* --------------------------- WHO WE ARE --------------------*/
 
 .bio-section-header {
@@ -195,6 +209,7 @@ h3 {
   letter-spacing: 7;
   padding-top: 3em;
   font-size: 2em;
+  padding-bottom: 1.5em;
 
 }
 
