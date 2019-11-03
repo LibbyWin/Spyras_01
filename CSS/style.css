@@ -64,7 +64,7 @@ html {
   min-height: 100%;
 }
 
-/* ----------------------------- TITLE ------------------------*/
+/* ----------------------------- title ------------------------*/
 
 .TITLE {
   text-align: center;
@@ -98,9 +98,6 @@ h2 {
   text-align: left;
 }
 
-.breathe {
-  font-size: 1.5em;
-}
 
 .quotee {
   font-size: 1.5em;
@@ -160,11 +157,6 @@ h3 {
   padding: 40px;
   margin: 4% 7%;
   display: inline-block;
-  opacity: 0.8;
-  -o-transition: all .4s ease-in;
-  transition: all .4s ease-in;
-  -moz-transition: all .4s ease-in;
-  -webkit-transition: all .4s ease-in;
 }
 
 .bg:hover {
@@ -249,7 +241,13 @@ h5 {
 
 .recruiting-text_01 {
   color: #399dd0;
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.recruiting-text_02 {
+  color: #399dd0;
+  font-size: 26px;
   font-weight: 400;
 }
 
