@@ -45,7 +45,7 @@
 
 
 <h3>Testing</h3>
-- There was regular testing throughout this project as it is required from a design perspective to visually see the creation. With the help of the Chrome Developer Tool it was a lot easier to see what was directly effecting elements. When i encountered an error, i first re read my code to make sure i havent mis typed or missed out a particular function. After, i would turn to the Chrome Developer Tool to see if i had anything overriding my specific element. in the event that the error couldnt be fixed through these two actions, I would turn my attention to Slack and code institute tutors for guidance in finding the error and advice for tackling the error.
+- There was regular testing throughout this project as it is required from a design perspective to visually see the creation. With the help of the Chrome Developer Tool it was a lot easier to see what was directly effecting elements. When i encountered an error, i first re read my code to make sure I havent mis typed or missed out a particular function. After, I would turn to the Chrome Developer Tool to see if there was anything overriding my specific element. in the event that the error couldnt be fixed through these two actions, I would turn my attention to Slack and code institute tutors for guidance in finding the error and advice for tackling the error.
 <br>
 - In the ‘About’ section, views can see what Spyras have created and how we can use the device for medical, sports and consumer purposes. If they are viewing on a mobile device, the image within the ‘about’ section will disappear due to it looking to cluttered, however the all other images will still be present. Everything will be aligned vertically, showing one piece of information at a time. On a desktop view, all the information can be seen horizontally except the ‘Creators’ section. This is due to aligning the importance of the team members.
 <br>
@@ -61,11 +61,11 @@
 -	To run the site correctly, the home page must be named as ‘index.html’  and in order for the CSS file to be correctly directed to the home page, it must have the corrects names within the file system.
 
 <h3>Work based on other people’s code</h3>
--  During my learning of previous modules, the "Whiskey Drop" mini project was very beneficial. Certain aspects from that site had been implicated into my own site and i did recap the lessons again to make sure i had correctly used the code.
+-  During my learning of previous modules, the "Whiskey Drop" mini project was very beneficial. Certain aspects from that site had been implicated into my own site and i did recap the lessons again to make sure the code had been used correctly.
 <br>
-- Looking online, i found that W3School had web templates which i took inspiration from as a certain few are very minimal and matched my desired design.
+- Looking online, I found that W3School had web templates which I took inspiration from as a certain few are very minimal and matched my desired design.
 <br>
-- Through out my project, I kept a close eye on the sample piece of work to make sure i was keeping on the correct path and to make sure my work was up to a high standard.
+- Through out my project, I kept a close eye on the sample piece of work to make sure I was keeping on the correct path and to make sure my work was up to a high standard.
 
 
 
