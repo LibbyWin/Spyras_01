@@ -51,7 +51,7 @@
 <br>
 - All the social media are able to view when clicking on the icons within the footer bar. These will open within a new tab to allow the view to keep position on the original website. This was done by adding ‘target=“_blank”’. All links have been tested and work as intended.
 <br>
-- This site has been tested on multiple devices (iphone X,8,7,6,5/SE, Samsung devices and a 5K monitor) and browsers (Safari, Chrome and internet Explorer) to ensure compatibility and responsiveness. During the testing, I realised that the navigation bar seemed to be located behind my first image which needed altering by adding ‘z-index: 1;’ to the .navbar.
+- This site has been tested on multiple devices (Iphone X,8,7,6,5/SE, Samsung devices and a 5K IMac Pro 5120x2880px) and browsers (Safari and Chrome) to ensure compatibility and responsiveness. During the testing, I realised that the navigation bar seemed to be located behind my first image which needed altering by adding ‘z-index: 1;’ to the .navbar.
 
 
 
