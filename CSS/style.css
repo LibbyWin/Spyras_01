@@ -34,7 +34,6 @@ html {
   margin-top: 5px;
   width: auto;
   z-index: 1;
-
 }
 
 .topnav {
@@ -64,7 +63,7 @@ html {
   min-height: 100%;
 }
 
-/* ----------------------------- title ------------------------*/
+/* ----------------------------- TITLE ------------------------*/
 
 .title-home {
   padding-top: 400px;
@@ -100,8 +99,9 @@ h2 {
 
 .quotee {
   font-size: 1.5em;
-  color: #399dd0;
+  color: white;
   font-weight: 700;
+  text-align: center;
 
 }
 
@@ -129,7 +129,7 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
-  padding-top: 2em;
+  padding-top: 3em;
   padding-bottom: .5em;
   font-size: 1.5em;
 }
@@ -204,7 +204,7 @@ hr {
   text-align: center;
   text-transform: uppercase;
   padding: 10px;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   padding-top: 3em;
   padding-bottom: 1.5em;
   font-size: 2em;
@@ -274,8 +274,9 @@ h5 {
   font-weight: 400;
 }
 
-
-
+.icon-pad {
+  padding-bottom: 20px;
+}
 /* -------------------------- CONTACT FORM --------------------*/
 
 .getintouch {
@@ -348,6 +349,7 @@ i {
   color: #8F8F8F;
   font-size: 28px;
   padding: 10px;
+  padding-bottom: 10px;
   text-align: center;
   vertical-align: middle;
   -o-transition: all .3s ease-in-out;
